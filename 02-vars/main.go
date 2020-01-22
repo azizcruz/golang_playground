@@ -17,7 +17,21 @@ func main() {
 	// Using var
 	var name = "Aziz"
 	var age int = 25
+	var isCool = true
+
+	fmt.Println("=================")
 
 	fmt.Println(name)
 	fmt.Printf("%T %d\n", age, age)
+	fmt.Printf("%T %v\n", isCool, isCool)
+
+	// Shorthand, this can't be used as global
+	name2, email := "Aziz", "aziz@gmail.com"
+	size := 1.4
+
+	fmt.Println(name2, email)
+	fmt.Printf("%T %v\n", size, size)
+
+	fmt.Println("=================")
+
 }
