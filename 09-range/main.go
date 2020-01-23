@@ -31,4 +31,9 @@ func main() {
 	for k, v := range names {
 		fmt.Printf("%s => %d\n", k, v)
 	}
+
+	// get only keys
+	for k := range names {
+		fmt.Println(k)
+	}
 }
